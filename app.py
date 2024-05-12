@@ -34,7 +34,7 @@ with st.sidebar:
         "example.png",
         caption="For example, enter 'ybgyy' if the result looks like this",
     )
-    st.components.v1.html(sidebar_html, height=450)
+    st.components.v1.html(sidebar_html, width=150, height=450)
 
 # ---------- HEADER ----------
 st.title("Welcome to Wordle Solver!")
